@@ -1,0 +1,65 @@
+.text-bg-dark {
+    background-color: #272738 !important;
+    color: rgb(202, 180, 132) !important;
+}
+.filled{
+    background-color: rgb(192, 87, 108);
+    color: rgb(255, 255, 255);
+}
+.text{
+    color: rgb(181, 178, 175);
+}
+.padding{
+    margin-left: 30px;
+}
+.profile-img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 600px;
+    
+}
+.lead{
+    font-size: 16px;
+}
+span{
+    color: rgb(192, 87, 108);
+}
+.selected-works{
+    text-align: center;
+}
+.btn-outline-secondary {
+    --bs-btn-hover-bg: rgb(192, 87, 108);
+    --bs-btn-hover-border-color: #6c757d00;
+
+}
+.mt-10{
+    margin-top: 60px;
+}
+h1, h2, h3, h4 {
+  Font-family: "Playfair Display", serif;
+}
+.project-btn {
+    transition: all 0.3s ease;
+}
+
+.arrow {
+    color: #6c757d;   /* grey */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.project-btn:hover {
+    background-color: #c95d78;
+    border-color: #c95d78;
+}
+
+.project-btn:hover .arrow {
+    color: white;
+}
+.nav-link {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+.highlight{
+    font-style: italic;
+}
