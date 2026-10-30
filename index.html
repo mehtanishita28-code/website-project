@@ -22,30 +22,39 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
                 <a href="/" class="d-flex center align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                 </a>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 align-items-center justify-content-center mb-md-0">
-                    <img src="logo.png" class="logo" height="100" />
+                   
+<li class="nav-item">
+    <a href="#home" class="logo-link">
+        <img
+            src="logo.png"
+            class="logo"
+            height="100"
+            alt="Nishita Mehta logo"
+        >
+    </a>
+</li>
+
                     <li>
-                        <a href="#" class="nav-link padding px-7 text-white">Home</a>
+                        <a href="#home" id="homeLink" class="nav-link padding px-7">Home</a>
                     </li>
-                    <li><a href="#" class="nav-link px-7 text">About</a></li>
-                    <li><a href="#" class="nav-link px-7 text">Portfolio</a></li>
+                   
+                    <li><a href="#portfolio" id="portfolioLink" class="nav-link px-7 text">Portfolio</a></li>
+                     <li><a href="#about" id="aboutLink" class="nav-link px-7 text">About</a></li>
                 </ul>
 
                 <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-4">
-                        Resume
-                    </button>
-                    <button type="button" class="btn filled me-2">
+                    <button type="button" id="resumeBtn" target="_blank" class="btn btn-outline-light me-4">Resume</button>
+                    <button type="button" id="connectBtn" class="btn filled me-2">
                         Connect
                     </button>
                 </div>
             </div>
         </div>
     </header>
-    <div class="container">
+    <div class="container" id="home">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="me.jpeg" class="d-block mx-lg-auto img-fluid profile-img" alt="Bootstrap Themes" width="700"
-                    height="500" loading="lazy" />
+            <div class="col-12 col-sm-10 col-lg-6">
+                <img src="intro pic.jpeg" class="d-block mx-lg-auto img-fluid profile-img" alt="Bootstrap Themes" loading="lazy" />
             </div>
             <div class="col-lg-6">
                 <h1 class="display-5 fw-semibold text-body-emphasis lh-base mb-3">
@@ -71,11 +80,11 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
         </div>
     </div>
     <div>
-        <div class="mt-60">
+        <div class="mt-60" id="portfolio">
         <div class=" album bg-body-tertiary">
             <div class="row py-lg-5 selected-works">
                 <div class="col-lg-6 col-md-8 mx-auto align-items-center">
-                    <h2 class="fw-semibold"><span>Selected</span> Works</h2>
+                    <h2 class="fw-semibold"><span class="highlight">Selected</span> Works</h2>
                     <p class="lead text-body-secondary">A curation of selected works from my portfolio.</p>
                     <p> </p>
                 </div>
@@ -85,67 +94,108 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
     <div class="bg-body-tertiary">
     <div class="album selected-margin bg-body-tertiary">
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
-                    <div class="card shadow-sm"> <svg aria-label="Placeholder: Thumbnail"
-                            class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice"
-                            role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
+                    <div class="card shadow-sm"> 
+<img
+    src="images/pure/thumbnail1.png"
+    class="card-img-top project-thumbnail"
+    alt="Pure Organic Soaps and Candles website design"
+    loading="lazy">
+
+                          
                         <div class="card-body">
-                             <h4>Project Name</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                             <h4>Pure - Website Design</h4>
+                            <p class="card-text">A nature-inspired e-commerce website for organic soaps and candles, blending earthy aesthetics with a seamless shopping experience.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary project-btn">
+                                <div class="btn-group"> 
+<a href="pure.html"
+   class="btn btn-sm btn-outline-secondary project-btn"
+   aria-label="View Pure project">
+
     <i class="bi bi-arrow-up-right arrow"></i>
-</button></div>
+
+</a>
+</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card shadow-sm"> <svg aria-label="Placeholder: Thumbnail"
-                            class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice"
-                            role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
-                        <div class="card-body">
-                             <h4>Project Name</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary project-btn">
-    <i class="bi bi-arrow-up-right arrow"></i>
-</button> </div>
-                            </div>
-                        </div>
-                    </div>
+                
+<!-- PROJECT 2: HAVEN -->
+
+<div class="col">
+    <div class="card shadow-sm">
+
+        <img
+            src="images/haven/thumbnail2.png"
+            class="card-img-top project-thumbnail"
+            alt="Haven mobile application UX design"
+            loading="lazy">
+
+        <div class="card-body">
+
+            <h4>Haven - UX Case Study</h4>
+
+            <p class="card-text">
+                A user-centered mobile application
+                designed through research, empathy,
+                and thoughtful digital interactions.
+            </p>
+
+            <div class="d-flex justify-content-between align-items-center">
+
+                <div class="btn-group">
+
+                    <a href="haven.html"
+                       class="btn btn-sm btn-outline-secondary project-btn"
+                       aria-label="View Haven project">
+
+                        <i class="bi bi-arrow-up-right arrow"></i>
+
+                    </a>
+
                 </div>
-                <div class="col">
-                    <div class="card shadow-sm"> <svg aria-label="Placeholder: Thumbnail"
-                            class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice"
-                            role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
-                        <div class="card-body">
-                            <h4>Project Name</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary project-btn">
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+            
+<div class="col">
+    <div class="card h-100">
+
+        <img src="images/bloom/bloom.jpg"
+             class="card-img-top"
+             alt="Bloom Skincare Application">
+
+        <div class="card-body">
+
+            <h4 class="card-title">
+                Bloom - UX Case Study
+            </h4>
+
+            <p class="card-text">
+                A personalized skincare application designed
+                to help Gen Z make informed skincare choices
+                through trusted guidance and intuitive experiences.
+            </p>
+
+           <a href="bloom.html"
+   class="btn btn-sm btn-outline-secondary project-btn"
+   aria-label="View Bloom project">
+
     <i class="bi bi-arrow-up-right arrow"></i>
-</button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+</a>
+
+        </div>
+    </div>
+</div>
+
                 </div>
             </div>
         </div>
@@ -153,7 +203,7 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
 </div>
 </div>
 
-  <section class="container behind-section py-5">
+  <section class="container behind-section py-5" id="about">
 
    
 
@@ -187,7 +237,7 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
 </div>
 <div class="about-text">
          <h2 class="text-center mb-5 fw-semibold">
-        <span>Behind</span> the Portfolio
+        <span class="highlight">Behind</span> the Portfolio
     </h2>
         <p>
             When I'm away from my screen, you'll usually find me exploring new
@@ -201,7 +251,7 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
 
 </div>
 <section class="contact-section bg-body-tertiary" id="contact">
-    <h2 class="contact-title">Let's<span> Connect</span></h2>
+    <h2 class="contact-title">Let's<span class="highlight"> Connect</span></h2>
 
     <div class="contact-box">
 
@@ -214,31 +264,31 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
             </p>
         </div>
 
-        <form class="contact-form">
+        <form class="contact-form" id="contactForm">
 
             <div class="form-row">
                 <div class="input-group">
-                    <input type="text" placeholder="Name" required>
+                    <input type="text" id="name" placeholder="Name" required>
                 </div>
 
                 <div class="input-group">
-                    <input type="email" placeholder="Email" required>
+                    <input type="email" id="email" placeholder="Email" required>
                 </div>
             </div>
 
             <div class="form-row">
                 <div class="input-group">
-                    <input type="tel" placeholder="Phone">
+                    <input type="tel" id="phone" placeholder="Phone">
                 </div>
             </div>
 
             <div class="form-row">
                 <div class="input-group full">
-                    <textarea placeholder="Message"></textarea>
+                    <textarea id="message" placeholder="Message"></textarea>
                 </div>
             </div>
 
-            <button type="submit">
+            <button type="submit" id="helloBtn">
                 Say Hello!
             </button>
 
@@ -252,7 +302,7 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
     </div>
 </footer>
 </div>
-
+<script src="./script.js"></script>
 </body>
 
 </html>

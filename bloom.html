@@ -1,0 +1,894 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bloom | Nishita Mehta</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+  function resizeBloomFlow() {
+    const iframe = document.getElementById("bloomFlow");
+    if (!iframe) return;
+
+    const width = iframe.getBoundingClientRect().width;
+    iframe.style.height = Math.ceil(width * 2232 / 1303) + "px";
+  }
+
+  window.addEventListener("load", resizeBloomFlow);
+  window.addEventListener("resize", resizeBloomFlow);
+  resizeBloomFlow();
+</script>
+
+<body>
+
+  <!-- NAVIGATION: SAME AS HAVEN -->
+  <header class="text-bg-dark">
+    <div class="container">
+      <nav class="project-nav">
+        <a href="index.html#home">
+          <img src="logo.png" class="logo" height="75" alt="Nishita Mehta">
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- BLOOM INTRODUCTION -->
+   
+<!-- BLOOM HERO SECTION -->
+<section class="bloom-intro container">
+
+    <!-- Back Arrow -->
+    <a href="index.html#portfolio" class="back-link">
+        ←
+    </a>
+
+    <p class="haven-category">
+        UX RESEARCH / MOBILE APPLICATION DESIGN
+    </p>
+
+    <div class="bloom-hero-grid">
+
+        <!-- LEFT SIDE -->
+        <div class="bloom-hero-text">
+
+            <h1 class="bloom-title">
+                Bloom
+            </h1>
+
+            <p class="bloom-subtitle">
+                A personalized skincare application designed
+                to help Gen Z build healthy habits, make
+                informed choices, and feel confident
+                in their skin.
+            </p>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="bloom-hero-image">
+
+            <img
+                src="images/bloom/Slide 18.jpg"
+                alt="Bloom skincare application cover"
+            >
+
+        </div>
+
+    </div>
+
+    <!-- PROJECT INFORMATION -->
+    <div class="bloom-project-info">
+
+        <div>
+            <span>PROJECT TYPE</span>
+            <p>Mobile Application</p>
+        </div>
+
+        <div>
+            <span>DESIGN FOCUS</span>
+            <p>UX Research & UI Design</p>
+        </div>
+
+        <div>
+            <span>PROCESS</span>
+            <p>Research → Define → Ideate → Design</p>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- 01 / OVERVIEW -->
+    <section class="project-overview">
+      <div class="container overview-grid">
+
+        <h2>
+          About the <span>Project</span>
+        </h2>
+
+        <div class="bloom-overview-content">
+
+          <h3>Overview</h3>
+          <p>
+            Bloom is a conceptual mobile skincare application
+            designed to simplify skincare for Gen Z users who
+            struggle with overwhelming product choices,
+            conflicting information, and inconsistent routines.
+          </p>
+
+          <h3>Role</h3>
+          <p>
+            As an individual designer, I worked on UX research,
+            competitive analysis, problem definition, ideation,
+            and user interface design.
+          </p>
+
+          <h3>Challenge</h3>
+          <p>
+            Users often find it difficult to identify trustworthy
+            skincare information, understand their skin's needs,
+            and maintain routines that fit their lifestyle.
+          </p>
+
+          <h3>Proposed Solution</h3>
+          <p>
+            A personalized skincare experience that brings
+            together simple routines, skin progress tracking,
+            educational resources, and access to professional
+            skincare guidance.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 02 / DESIGN PROCESS -->
+    <section class="haven-process">
+      <div class="container">
+
+        <div class="haven-process-heading">
+          <h2>Design <span>Process</span></h2>
+          <p>
+            From understanding skincare habits to designing
+            a more informed and personalized experience.
+          </p>
+        </div>
+
+        <div class="haven-process-grid">
+
+          <div class="haven-process-step">
+            <span>01</span>
+            <h3>Research</h3>
+            <p>
+              Exploring skincare habits, challenges,
+              and user expectations through interviews.
+            </p>
+          </div>
+
+          <div class="haven-process-step">
+            <span>02</span>
+            <h3>Analysis</h3>
+            <p>
+              Studying existing skincare platforms
+              and identifying potential opportunities.
+            </p>
+          </div>
+
+          <div class="haven-process-step">
+            <span>03</span>
+            <h3>Define</h3>
+            <p>
+              Identifying user pain points and
+              refining the problem statement.
+            </p>
+          </div>
+
+          <div class="haven-process-step">
+            <span>04</span>
+            <h3>Ideation</h3>
+            <p>
+              Exploring features and organizing
+              the proposed skincare experience.
+            </p>
+          </div>
+
+          <div class="haven-process-step">
+            <span>05</span>
+            <h3>UI Design</h3>
+            <p>
+              Translating the concept into
+              mobile application screens.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+<!-- SECTION 4: BLOOM USER INTERVIEWS -->
+<section class="haven-interviews">
+  <div class="container">
+
+    <div class="haven-interviews-heading">
+      <p class="haven-stage-label">01 / DISCOVER</p>
+      <h2>User <span>Interviews</span></h2>
+      <p>
+        Understanding skincare habits, product choices,
+        trust, and the challenges users face in maintaining
+        healthy skincare routines.
+      </p>
+    </div>
+
+    <!-- INTERVIEW QUESTIONS -->
+    
+<!-- INTERVIEW QUESTIONNAIRE -->
+<div class="haven-questions">
+
+    <p class="haven-questions-label">
+        INTERVIEW QUESTIONNAIRE
+    </p>
+
+    <!-- SECTION 1: BASIC ROUTINE -->
+   <h3 class="bloom-question-category">
+    Section 1: Basic Routine
+</h3>
+
+    <div class="haven-question">
+        <span>01</span>
+        <p>What time do you normally wake up?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>02</span>
+        <p>What is the first thing you do after you wake up?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>03</span>
+        <p>What does the rest of your day look like?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>04</span>
+        <p>How do you rate your energy levels during the day?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>05</span>
+        <p>Do you workout/exercise?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>06</span>
+        <p>What time do you normally go to sleep?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>07</span>
+        <p>How many hours of sleep do you get?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>08</span>
+        <p>How much water do you drink per day?</p>
+    </div>
+
+
+    <!-- SECTION 2: UNDERSTANDING THEIR SKIN -->
+    <h3 class="bloom-question-category">
+    Section 2: Understanding Their Skin
+</h3>
+
+    <div class="haven-question">
+        <span>01</span>
+        <p>How would you describe your skin (oily, dry, sensitive) ?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>02</span>
+        <p>Do you follow a skincare routine?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>03</span>
+        <p>If yes, what is it?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>04</span>
+        <p>Do you see a change in your skin after practicing this routine?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>05</span>
+        <p>Did you hear of this routine from someone or its your own?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>06</span>
+        <p>Do you have any skin issues?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>07</span>
+        <p>If yes, please elaborate.</p>
+    </div>
+
+    <div class="haven-question">
+        <span>08</span>
+        <p>Have you ever undergone a skin treatment?</p>
+    </div>
+
+
+    <!-- SECTION 3: VALIDATING OUR SOLUTIONS -->
+  <h3 class="bloom-question-category">
+    Section 3: Validating Our Solutions
+</h3>
+    <div class="haven-question">
+        <span>01</span>
+        <p>Have you ever used a skincare platform? If yes, which one?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>02</span>
+        <p>What is that feature you like about this platform?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>03</span>
+        <p>What is that feature you dislike about this platform?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>04</span>
+        <p>What features would you want to see in a skincare platform?</p>
+    </div>
+
+    <div class="haven-question">
+        <span>05</span>
+        <p>
+            Would you like to know how your food and water intake as
+            well as sleep affects your skin?
+        </p>
+    </div>
+
+    <div class="haven-question">
+        <span>06</span>
+        <p>
+            Would you like to understand how hormones and
+            period changes are connected to your skin?
+        </p>
+    </div>
+
+    <div class="haven-question">
+        <span>07</span>
+        <p>Have you heard of skin journalling before?</p>
+    </div>
+
+</div>
+
+
+    <!-- TOP LEARNINGS -->
+    
+<!-- TOP LEARNINGS -->
+<div class="haven-learnings">
+
+    <h3>Top <span>Learnings</span></h3>
+
+    <div class="haven-learnings-list">
+
+        <p>
+            <strong>Skincare is a lot of effort.</strong>
+            Users need simple, personalized guidance
+            that makes skincare routines easier to
+            understand and maintain.
+        </p>
+
+        <p>
+            <strong>People trust dermatologists.</strong>
+            Users value credible, evidence-based
+            recommendations, creating an opportunity
+            to make expert-backed advice more
+            accessible and transparent.
+        </p>
+
+        <p>
+            <strong>People rely on reviews.</strong>
+            Users look for relatable experiences
+            to reduce uncertainty when purchasing
+            skincare products, highlighting the need
+            for trustworthy, personalized review insights.
+        </p>
+
+    </div>
+
+</div>
+
+
+  </div>
+</section>
+
+
+
+<!-- BLOOM DEFINE SECTION -->
+<section class="bloom-define-section">
+    <div class="container">
+
+        <div class="haven-interviews-heading">
+            <p class="haven-stage-label">02 / DEFINE</p>
+
+            <h2>Problem Framing & <span>Brainstorming</span></h2>
+
+            <p>
+                Based on the identified problem, I explored
+                potential features and opportunities to create
+                a more personalized, educational, and supportive
+                skincare experience for Gen Z.
+            </p>
+        </div>
+
+        <div class="bloom-brainstorm-image">
+            <img
+                src="images/bloom/bloom_brainstorming.png"
+                alt="Bloom skincare app problem framing and feature brainstorming"
+            >
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!-- BLOOM MARKET ANALYSIS -->
+<section class="bloom-market-section">
+    <div class="container">
+
+        <div class="haven-interviews-heading">
+            <p class="haven-stage-label">03 / ANALYZE</p>
+            <h2>Market <span>Analysis</span></h2>
+            <p>
+                Identifying gaps in existing skincare platforms
+                and opportunities for Bloom.
+            </p>
+        </div>
+
+        <div class="bloom-market-table-wrapper">
+            <table class="bloom-market-table">
+                <thead>
+                    <tr>
+                        <th>ASPECT</th>
+                        <th>EXISTING SOLUTIONS</th>
+                        <th>GAPS / LIMITATIONS</th>
+                        <th>OPPORTUNITY FOR BLOOM</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Personalization</td>
+                        <td>
+                            Skin Bliss offers AI-powered matching;
+                            The Derma Co. and Minimalist provide
+                            concern-based product recommendations.
+                        </td>
+                        <td>
+                            Guidance varies across platforms,
+                            with limited integration of education,
+                            routines, and personalized support.
+                        </td>
+                        <td>
+                            Personalized skincare routines
+                            based on skin concerns, sensitivities,
+                            and individual goals.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Ingredient Awareness</td>
+                        <td>
+                            Think Dirty emphasizes ingredient
+                            transparency; Skin Bliss and Minimalist
+                            provide ingredient-focused information.
+                        </td>
+                        <td>
+                            Information can be technical,
+                            overwhelming, or disconnected
+                            from everyday skincare decisions.
+                        </td>
+                        <td>
+                            Simple ingredient explanations
+                            and product compatibility guidance
+                            through an accessible scanner.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Expert Guidance</td>
+                        <td>
+                            The Derma Co. and Minimalist emphasize
+                            science-backed skincare, while
+                            Skin Bliss uses AI-driven guidance.
+                        </td>
+                        <td>
+                            Science-backed positioning does not
+                            always translate into accessible,
+                            individualized expert consultation.
+                        </td>
+                        <td>
+                            Connect users with qualified
+                            skincare professionals for
+                            personalized consultation.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Skin Assessment</td>
+                        <td>
+                            The Derma Co. and Skin Bliss offer
+                            skin analysis quizzes; Minimalist
+                            and Dot & Key provide basic assessments.
+                        </td>
+                        <td>
+                            Assessments differ in depth,
+                            and may focus primarily on
+                            product recommendations.
+                        </td>
+                        <td>
+                            A comprehensive skin profile
+                            connecting assessment results
+                            with routines, product guidance,
+                            and progress tracking.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Target Audience</td>
+                        <td>
+                            Platforms serve Gen Z, millennials,
+                            ingredient-conscious consumers,
+                            and users with specific skin concerns.
+                        </td>
+                        <td>
+                            Users may need multiple platforms
+                            for education, product research,
+                            and personalized skincare management.
+                        </td>
+                        <td>
+                            A unified, approachable skincare
+                            experience designed around the
+                            needs of Gen Z users.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</section>
+<!-- BLOOM USER FLOW -->
+<section class="bloom-user-flow-section">
+    <div class="container">
+
+        <div class="haven-interviews-heading">
+            <p class="haven-stage-label">04 / IDEATE</p>
+
+            <h2>User <span>Flow</span></h2>
+
+            <p>
+                Mapping the proposed user journey, from
+                onboarding and skin assessment to personalized
+                skincare features.
+            </p>
+        </div>
+
+    
+
+    </div>
+</section>
+
+<div class="bloom-flow-container">
+    <img
+        src="images/bloom/bloom_userflow.png"
+        alt="Bloom skincare app user flow diagram"
+        class="bloom-flow-image">
+</div>
+
+<!-- Sitemap Section -->
+<section class="bloom-sitemap-section">
+    <div class="container">
+
+        <p class="section-label">05 / STRUCTURE</p>
+        <h2 class="section-title">Sitemap</h2>
+
+        <p class="sitemap-description">
+            The sitemap organizes Bloom's key features and
+            navigation structure, creating a clear and intuitive
+            experience for users.
+        </p>
+
+        <div class="sitemap-image">
+            <img src="images/bloom/infoarch_bloom.png"
+                 alt="Bloom App Sitemap">
+        </div>
+
+    </div>
+</section>
+
+<!-- BLOOM STYLE GUIDE -->
+<section class="bloom-style-guide">
+    <div class="container">
+
+        <p class="bloom-section-label">06 / DESIGN</p>
+
+        <h2 class="bloom-style-heading">
+            Visual <em>Identity</em>
+        </h2>
+
+        <p class="bloom-style-intro">
+            Bloom's visual identity combines warm neutrals,
+            earthy tones, and soft coral accents to create
+            a nurturing and approachable skincare experience.
+        </p>
+
+        <!-- COLOR PALETTE -->
+        <div class="bloom-guide-block">
+            <h3>Color Palette</h3>
+            <p>
+                A warm and calming palette that communicates
+                trust, simplicity, and personalized care.
+            </p>
+
+            <div class="bloom-color-grid">
+
+                <div class="bloom-color-item">
+                    <div class="bloom-swatch"
+                         style="background:#F7F3EE;"></div>
+                    <h4>Warm Cream</h4>
+                    <span>#F7F3EE</span>
+                </div>
+
+                <div class="bloom-color-item">
+                    <div class="bloom-swatch"
+                         style="background:#4E2B20;"></div>
+                    <h4>Dark Brown</h4>
+                    <span>#4E2B20</span>
+                </div>
+
+                <div class="bloom-color-item">
+                    <div class="bloom-swatch"
+                         style="background:#F58469;"></div>
+                    <h4>Soft Coral</h4>
+                    <span>#F58469</span>
+                </div>
+
+                <div class="bloom-color-item">
+                    <div class="bloom-swatch"
+                         style="background:#EAE0D4;"></div>
+                    <h4>Soft Beige</h4>
+                    <span>#EAE0D4</span>
+                </div>
+
+                <div class="bloom-color-item">
+                    <div class="bloom-swatch"
+                         style="background:#514C32;"></div>
+                    <h4>Olive Green</h4>
+                    <span>#514C32</span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- TYPOGRAPHY -->
+        <div class="bloom-guide-block">
+            <h3>Typography</h3>
+            <p>
+                Clean sans-serif typography ensures readability
+                and a consistent experience across the app.
+            </p>
+
+            <div class="bloom-type-card">
+                <div class="bloom-type-sample">
+                    <span>Heading / Bold</span>
+                    <h2>Bloom</h2>
+                </div>
+
+                <div class="bloom-type-sample">
+                    <span>Subheading / Semibold</span>
+                    <h3>Nurture Your Skin</h3>
+                </div>
+
+                <div class="bloom-type-sample">
+                    <span>Body / Regular</span>
+                    <p>
+                        Personalized skincare guidance
+                        tailored to your skin's needs.
+                    </p>
+                </div>
+
+                <div class="bloom-type-sample">
+                    <span>Caption / Medium</span>
+                    <small>
+                        2 min read · Skin Science
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <!-- UI COMPONENTS -->
+        <div class="bloom-guide-block">
+            <h3>UI Components</h3>
+            <p>
+                Rounded components and consistent visual
+                states create a simple, intuitive interface.
+            </p>
+
+            <div class="bloom-component-card">
+
+                <h4>Buttons</h4>
+
+                <div class="bloom-button-row">
+                    <button class="bloom-primary-btn">
+                        View Details
+                    </button>
+
+                    <button class="bloom-coral-btn">
+                        Check with Expert
+                    </button>
+                </div>
+
+                <h4>Selection Tabs</h4>
+
+                <div class="bloom-tab-row">
+                    <span class="bloom-tab active">
+                        Dullness
+                    </span>
+
+                    <span class="bloom-tab">
+                        Check-Ins
+                    </span>
+
+                    <span class="bloom-tab">
+                        Cycle
+                    </span>
+                </div>
+
+               
+<!-- PRODUCT CARD -->
+<div class="bloom-product-section">
+
+    <h4>Product Cards</h4>
+
+    <div class="bloom-product-card">
+
+        <div class="bloom-product-image">
+            <img src="images/bloom/laneige.jpg"
+                 alt="Laneige Cream Skin Toner">
+        </div>
+
+        <div class="bloom-product-info">
+            <h3>Laneige Cream<br>Skin Toner</h3>
+
+            <p>
+                Hydrating toner that helps replenish
+                moisture and support the skin barrier.
+            </p>
+
+            <div class="bloom-product-tags">
+                <span>Soothing</span>
+                <span>Hydrating</span>
+                <span>Alcohol-free</span>
+            </div>
+        </div>
+
+        <button class="bloom-product-heart"
+                type="button"
+                aria-label="Add to favorites">
+            &#9825;
+        </button>
+
+    </div>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- SECTION 07: FINAL UI SCREENS -->
+<section class="bloom-screens-section">
+    <div class="container">
+
+        <p class="section-label">07 / DESIGN</p>
+
+        <h2 class="bloom-screens-heading">
+            Final <em>UI Screens</em>
+        </h2>
+
+        <p class="bloom-screens-description">
+            Bringing Bloom to life through intuitive interfaces,
+            personalized skincare experiences, and a cohesive
+            visual design.
+        </p>
+
+        <div class="bloom-screen-grid">
+    <img src="images/bloom/bloom_1.jpg" alt="Bloom Screen 1">
+    <img src="images/bloom/bloom_2.jpg" alt="Bloom Screen 2">
+    <img src="images/bloom/bloom_3.jpg" alt="Bloom Screen 3">
+    <img src="images/bloom/bloom_4.jpg" alt="Bloom Screen 4">
+    <img src="images/bloom/bloom_5.jpg" alt="Bloom Screen 5">
+    <img src="images/bloom/bloom_6.jpg" alt="Bloom Screen 6">
+    
+    <img src="images/bloom/bloom_7.jpg" alt="Bloom Screen 7">
+    <img src="images/bloom/bloom_8.jpg" alt="Bloom Screen 8">
+    <img src="images/bloom/bloom_9.jpg" alt="Bloom Screen 9">
+    <img src="images/bloom/bloom_10.jpg" alt="Bloom Screen 10">
+    <img src="images/bloom/bloom_11.jpg" alt="Bloom Screen 11">
+    <img src="images/bloom/bloom_12.jpg" alt="Bloom Screen 12">
+   
+</div>
+
+    </div>
+</section>
+
+
+
+<!-- SECTION 08: PROJECT REFLECTIONS -->
+<section class="bloom-reflection-section">
+    <div class="container">
+
+        <p class="bloom-reflection-label">
+            08 / REFLECT
+        </p>
+
+        <h2 class="bloom-reflection-heading">
+            Project <em>Reflections</em>
+        </h2>
+
+        <p class="bloom-reflection-text">
+            Bloom helped me understand the importance of
+            creating a personalized and trustworthy skincare
+            experience that goes beyond product recommendations.
+            Through user research, competitive analysis, and
+            interface design, I learned how to translate complex
+            skincare information into simple and accessible
+            experiences. One of the biggest challenges was
+            bringing education, personalized routines, expert
+            guidance, and progress tracking together within a
+            cohesive interface. This project strengthened my
+            understanding of user-centered design and the
+            importance of balancing functionality, accessibility,
+            and visual consistency.
+        </p>
+
+    </div>
+</section>
+
+
+  </main>
+
+  <footer class="footer"></footer>
+
+</body>
+</html>
